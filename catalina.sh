@@ -105,8 +105,8 @@
 # -----------------------------------------------------------------------------
 
 CATALINA_OPTS="$CATALINA_OPTS -javaagent:/usr/local/work/pinpoint-agent-1.5.2/pinpoint-bootstrap-1.5.2.jar"
-CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.agentId=pp20171031"
-CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.applicationName=TestApplication"
+CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.agentId=$PINPOINT_AGENT_ID"
+CATALINA_OPTS="$CATALINA_OPTS -Dpinpoint.applicationName=$PINPOINT_APPLICATION_NAME"
 
 # OS specific support.  $var _must_ be set to either true or false.
 cygwin=false
